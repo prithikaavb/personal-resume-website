@@ -1,0 +1,122 @@
+.index {
+    background-image: url("Moody Half-Portrait in Shadows.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin-left: 50px;
+   
+
+    
+   
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.index button {
+    background-color: transparent;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.achievements{
+    background-image: url("imgg.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+
+    color: white;
+    font-family: cursive;
+}
+
+.education {
+    background-image: url("study.jpeg");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+
+
+    color: white;
+    font-family: cursive;
+    margin-left: 50px;
+    
+}
+.education table{
+    margin-left: 50px;
+}
+.education table {
+    border: 2px solid white;
+}
+.education th,
+.education td {
+    border: 1px solid white;
+    padding: 12px;
+}
+.center{
+        text-align: center;
+    }
+.center h4{
+    text-align: center;
+}
+
+.contact{
+    background-image: url("phone.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+   
+
+    color: white;
+    font-family: cursive;
+    margin-left: 70px;
+
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 60px;
+}
+.intro{
+    font-size: 20px;
+}
+h2.me{
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+li.match{
+    font-size: 20px;
+    font-weight: bold;
+}
+h4.reach{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.info{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-left: 60px;
+}
+h4.grade{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+h5.stream{
+    margin-bottom: 0;
+    line-height: 1;
+}
+h1.name{
+    font-size: 45px;
+    font-weight: bold;
+}  
+h4.welcome{
+    margin-left: 30px;
+    transform: translateY(20px);
+}
+.size{
+    font-size: 18px;
+}
